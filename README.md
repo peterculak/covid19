@@ -20,14 +20,21 @@ TypeScript is a superset of JavaScript which gives you static types and powerful
 #### Creating a new project
 
 - Install the CLI: `npm i -g expo-cli`
-- Create a project: `expo init --template expo-template-blank-typescript`
-- `cd` into the project
+- git clone https://github.com/peterculak/covid19.git
+- `cd covid19` into the project
 
-### Adding TypeScript to existing projects
+### Running the project
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `expo start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+- Create .env file by copying .env.example: `cp .env.example .env`
+- Edit .env file if you need to change cities or timeout
+- Run `expo start`
+
+### Running on the device (phone)
+
+- Install ExpoGo on your device from PlayStore
+- Start ExpoGo on your device
+- Scan the barcode provided in cli or browser
+
 
 ## 📝 Notes
 

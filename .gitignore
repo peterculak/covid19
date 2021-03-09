@@ -1,6 +1,8 @@
 # OSX
 #
 .DS_Store
+.env
+get_all_drivein_times_vacc.json
 
 # Xcode
 #
